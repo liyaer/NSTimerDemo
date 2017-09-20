@@ -101,14 +101,9 @@
 		D2412B841F71125B00F0E1BF /* NSTimerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D2412B881F71125B00F0E1BF /* AppDelegate.h */,
-				D2412B891F71125B00F0E1BF /* AppDelegate.m */,
+				D2412B8E1F71125B00F0E1BF /* Main.storyboard */,
 				D2412B8B1F71125B00F0E1BF /* ViewController.h */,
 				D2412B8C1F71125B00F0E1BF /* ViewController.m */,
-				D2412B8E1F71125B00F0E1BF /* Main.storyboard */,
-				D2412B911F71125B00F0E1BF /* Assets.xcassets */,
-				D2412B931F71125B00F0E1BF /* LaunchScreen.storyboard */,
-				D2412B961F71125B00F0E1BF /* Info.plist */,
 				D2412B851F71125B00F0E1BF /* Supporting Files */,
 			);
 			path = NSTimerDemo;
@@ -117,6 +112,11 @@
 		D2412B851F71125B00F0E1BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2412B881F71125B00F0E1BF /* AppDelegate.h */,
+				D2412B891F71125B00F0E1BF /* AppDelegate.m */,
+				D2412B911F71125B00F0E1BF /* Assets.xcassets */,
+				D2412B931F71125B00F0E1BF /* LaunchScreen.storyboard */,
+				D2412B961F71125B00F0E1BF /* Info.plist */,
 				D2412B861F71125B00F0E1BF /* main.m */,
 			);
 			name = "Supporting Files";
