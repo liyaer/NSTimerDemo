@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		D2412B871F71125B00F0E1BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2412B861F71125B00F0E1BF /* main.m */; };
 		D2412B8A1F71125B00F0E1BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2412B891F71125B00F0E1BF /* AppDelegate.m */; };
-		D2412B8D1F71125B00F0E1BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2412B8C1F71125B00F0E1BF /* ViewController.m */; };
+		D2412B8D1F71125B00F0E1BF /* NSTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2412B8C1F71125B00F0E1BF /* NSTimerVC.m */; };
 		D2412B901F71125B00F0E1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2412B8E1F71125B00F0E1BF /* Main.storyboard */; };
 		D2412B921F71125B00F0E1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2412B911F71125B00F0E1BF /* Assets.xcassets */; };
 		D2412B951F71125B00F0E1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2412B931F71125B00F0E1BF /* LaunchScreen.storyboard */; };
 		D2412BA01F71125C00F0E1BF /* NSTimerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2412B9F1F71125C00F0E1BF /* NSTimerDemoTests.m */; };
 		D2412BAB1F71125C00F0E1BF /* NSTimerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2412BAA1F71125C00F0E1BF /* NSTimerDemoUITests.m */; };
+		D2C6B1461F73856700ADE5D8 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6B1451F73856700ADE5D8 /* GCDTimer.m */; };
+		D2C6B1491F73892800ADE5D8 /* GCDTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6B1481F73892800ADE5D8 /* GCDTimerVC.m */; };
+		D2C6B14C1F7392AB00ADE5D8 /* WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6B14B1F7392AA00ADE5D8 /* WeakTimer.m */; };
+		D2C6B14F1F73960500ADE5D8 /* WeakTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6B14E1F73960500ADE5D8 /* WeakTimerVC.m */; };
+		D2C6B1561F73AE4800ADE5D8 /* MultiThreadUsingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6B1551F73AE4800ADE5D8 /* MultiThreadUsingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,8 @@
 		D2412B861F71125B00F0E1BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2412B881F71125B00F0E1BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2412B891F71125B00F0E1BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D2412B8B1F71125B00F0E1BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D2412B8C1F71125B00F0E1BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2412B8B1F71125B00F0E1BF /* NSTimerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTimerVC.h; sourceTree = "<group>"; };
+		D2412B8C1F71125B00F0E1BF /* NSTimerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerVC.m; sourceTree = "<group>"; };
 		D2412B8F1F71125B00F0E1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2412B911F71125B00F0E1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2412B941F71125B00F0E1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		D2412BA61F71125C00F0E1BF /* NSTimerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTimerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2412BAA1F71125C00F0E1BF /* NSTimerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerDemoUITests.m; sourceTree = "<group>"; };
 		D2412BAC1F71125C00F0E1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C6B1441F73856700ADE5D8 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		D2C6B1451F73856700ADE5D8 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
+		D2C6B1471F73892800ADE5D8 /* GCDTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimerVC.h; sourceTree = "<group>"; };
+		D2C6B1481F73892800ADE5D8 /* GCDTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimerVC.m; sourceTree = "<group>"; };
+		D2C6B14A1F7392AA00ADE5D8 /* WeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakTimer.h; sourceTree = "<group>"; };
+		D2C6B14B1F7392AA00ADE5D8 /* WeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakTimer.m; sourceTree = "<group>"; };
+		D2C6B14D1F73960500ADE5D8 /* WeakTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakTimerVC.h; sourceTree = "<group>"; };
+		D2C6B14E1F73960500ADE5D8 /* WeakTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakTimerVC.m; sourceTree = "<group>"; };
+		D2C6B1541F73AE4800ADE5D8 /* MultiThreadUsingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThreadUsingVC.h; sourceTree = "<group>"; };
+		D2C6B1551F73AE4800ADE5D8 /* MultiThreadUsingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThreadUsingVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +116,10 @@
 		D2412B841F71125B00F0E1BF /* NSTimerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D2C6B1501F73A4D900ADE5D8 /* NSTimer */,
+				D2C6B1511F73A4EE00ADE5D8 /* GCDTimer */,
+				D2C6B1521F73A4FC00ADE5D8 /* WeakTimer */,
 				D2412B8E1F71125B00F0E1BF /* Main.storyboard */,
-				D2412B8B1F71125B00F0E1BF /* ViewController.h */,
-				D2412B8C1F71125B00F0E1BF /* ViewController.m */,
 				D2412B851F71125B00F0E1BF /* Supporting Files */,
 			);
 			path = NSTimerDemo;
@@ -138,6 +154,47 @@
 				D2412BAC1F71125C00F0E1BF /* Info.plist */,
 			);
 			path = NSTimerDemoUITests;
+			sourceTree = "<group>";
+		};
+		D2C6B1501F73A4D900ADE5D8 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D2412B8B1F71125B00F0E1BF /* NSTimerVC.h */,
+				D2412B8C1F71125B00F0E1BF /* NSTimerVC.m */,
+				D2C6B1531F73ADD300ADE5D8 /* 多线程中的使用 */,
+			);
+			name = NSTimer;
+			sourceTree = "<group>";
+		};
+		D2C6B1511F73A4EE00ADE5D8 /* GCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D2C6B1441F73856700ADE5D8 /* GCDTimer.h */,
+				D2C6B1451F73856700ADE5D8 /* GCDTimer.m */,
+				D2C6B1471F73892800ADE5D8 /* GCDTimerVC.h */,
+				D2C6B1481F73892800ADE5D8 /* GCDTimerVC.m */,
+			);
+			name = GCDTimer;
+			sourceTree = "<group>";
+		};
+		D2C6B1521F73A4FC00ADE5D8 /* WeakTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D2C6B14A1F7392AA00ADE5D8 /* WeakTimer.h */,
+				D2C6B14B1F7392AA00ADE5D8 /* WeakTimer.m */,
+				D2C6B14D1F73960500ADE5D8 /* WeakTimerVC.h */,
+				D2C6B14E1F73960500ADE5D8 /* WeakTimerVC.m */,
+			);
+			name = WeakTimer;
+			sourceTree = "<group>";
+		};
+		D2C6B1531F73ADD300ADE5D8 /* 多线程中的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				D2C6B1541F73AE4800ADE5D8 /* MultiThreadUsingVC.h */,
+				D2C6B1551F73AE4800ADE5D8 /* MultiThreadUsingVC.m */,
+			);
+			name = "多线程中的使用";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2412B8D1F71125B00F0E1BF /* ViewController.m in Sources */,
+				D2C6B1461F73856700ADE5D8 /* GCDTimer.m in Sources */,
+				D2C6B1561F73AE4800ADE5D8 /* MultiThreadUsingVC.m in Sources */,
+				D2412B8D1F71125B00F0E1BF /* NSTimerVC.m in Sources */,
+				D2C6B14F1F73960500ADE5D8 /* WeakTimerVC.m in Sources */,
 				D2412B8A1F71125B00F0E1BF /* AppDelegate.m in Sources */,
+				D2C6B14C1F7392AB00ADE5D8 /* WeakTimer.m in Sources */,
+				D2C6B1491F73892800ADE5D8 /* GCDTimerVC.m in Sources */,
 				D2412B871F71125B00F0E1BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +569,7 @@
 				D2412BB11F71125C00F0E1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2412BB21F71125C00F0E1BF /* Build configuration list for PBXNativeTarget "NSTimerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +578,7 @@
 				D2412BB41F71125C00F0E1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2412BB51F71125C00F0E1BF /* Build configuration list for PBXNativeTarget "NSTimerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +587,7 @@
 				D2412BB71F71125C00F0E1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

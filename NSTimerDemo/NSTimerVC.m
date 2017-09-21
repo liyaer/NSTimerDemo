@@ -6,11 +6,11 @@
 //  Copyright © 2017年 杜文亮. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "NSTimerVC.h"
 
 
 
-@interface ViewController ()
+@interface NSTimerVC ()
 {
     NSTimer *_timer;
     int _index;
@@ -19,7 +19,7 @@
 
 
 
-@implementation ViewController
+@implementation NSTimerVC
 
 - (void)viewDidLoad
 {
@@ -130,8 +130,8 @@
     [[NSRunLoop mainRunLoop] addTimer:_timer forMode:NSDefaultRunLoopMode];
     
     //体验二者的不同之处
-//    [_timer setFireDate:[NSDate distantPast]];//越过5秒等待，提前执行一次定时器中的方法，直接激活timer（开始间隔2秒开始重复执行）
-    [_timer fire];//只能提前执行一次定时器中的方法，没有改变timer状态的能力；等待5秒后，定时器激活（开始间隔2秒开始重复执行）
+    [_timer setFireDate:[NSDate distantPast]];//越过5秒等待，提前执行一次定时器中的方法，直接激活timer（开始间隔2秒开始重复执行）
+//    [_timer fire];//只能提前执行一次定时器中的方法，没有改变timer状态的能力；等待5秒后，定时器激活（开始间隔2秒开始重复执行）
 }
 
 
