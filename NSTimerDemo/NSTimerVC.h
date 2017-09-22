@@ -13,7 +13,7 @@
  
  *   NSTimer可以精确到50-100毫秒.NSTimer不是绝对准确的,而且中间耗时或阻塞错过下一个执行点，那么就pass继续执行下一个执行点.
  
- *   由于NSTimer和控制器存在循环引用关系，所以不能在控制的dealloc中执行【timer invalidate】操作，对timer的释放我们写在viewWillDisappear，解除循环引用关系，随后控制器可以dealloc
+ *   由于NSTimer和控制器存在循环引用关系，所以不能在控制的dealloc中执行【timer invalidate】操作，对timer的释放我们写在viewWillDisappear（在实际应用中，写在这里“可能”会导致我们需要不停地在很多VC的【viewWillDisappear】和【viewWillAppear】中处理timer的开启和暂停），解除循环引用关系，随后控制器可以dealloc。
  */
 
 #import <UIKit/UIKit.h>

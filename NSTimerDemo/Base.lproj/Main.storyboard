@@ -155,7 +155,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6XT-yI-mjW">
-                                <rect key="frame" x="92" y="101" width="123" height="30"/>
+                                <rect key="frame" x="92" y="88" width="123" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="distantPast：开启"/>
                                 <connections>
@@ -163,7 +163,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXs-1b-PgN">
-                                <rect key="frame" x="84" y="176" width="138" height="30"/>
+                                <rect key="frame" x="84" y="139" width="138" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="distantFuture：暂停"/>
                                 <connections>
@@ -171,7 +171,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcD-xG-1ma">
-                                <rect key="frame" x="3" y="259" width="316" height="30"/>
+                                <rect key="frame" x="3" y="189" width="316" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="invalidate：销毁（意思是指从runloop中移除）"/>
                                 <connections>
@@ -179,7 +179,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qiq-T9-11y">
-                                <rect key="frame" x="47" y="353" width="216" height="35"/>
+                                <rect key="frame" x="47" y="238" width="216" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="最后一点：关于fire"/>
                                 <connections>
@@ -187,11 +187,26 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxv-FB-2GA">
-                                <rect key="frame" x="99" y="430" width="108" height="30"/>
+                                <rect key="frame" x="99" y="356" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="多线程中的使用"/>
                                 <connections>
                                     <segue destination="imQ-Fd-xnH" kind="show" id="RIF-Gb-JLt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="==分割线：开始前请先invalidate本VC的timer==" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4su-oZ-QBI">
+                                <rect key="frame" x="5" y="302" width="314" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63O-2N-kxd">
+                                <rect key="frame" x="15" y="412" width="276" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="解决定时器在某些情况下暂时失效的问题"/>
+                                <connections>
+                                    <segue destination="9v8-TH-T9f" kind="show" id="eD1-M5-ayQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -200,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dzC-mY-Lyl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1871" y="-364"/>
+            <point key="canvasLocation" x="1869.375" y="-365"/>
         </scene>
         <!--Multi Thread UsingVC-->
         <scene sceneID="s2N-mS-dk8">
@@ -218,7 +233,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LYH-Be-Prb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2528" y="-365"/>
+            <point key="canvasLocation" x="2588" y="-1076"/>
+        </scene>
+        <!--Timer InvalidVC-->
+        <scene sceneID="Uq4-yo-uQt">
+            <objects>
+                <viewController id="9v8-TH-T9f" customClass="TimerInvalidVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Lk-bh-pLK"/>
+                        <viewControllerLayoutGuide type="bottom" id="VQK-5R-2XB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kal-Q3-q4J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ggh-hh-5jS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2606" y="-365"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Nay-mE-tAu">

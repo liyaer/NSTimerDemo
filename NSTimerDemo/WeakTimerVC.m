@@ -14,7 +14,7 @@
 
 @interface WeakTimerVC ()
 
-@property (nonatomic,weak) NSTimer *timer;
+@property (nonatomic,weak/*strong也是可以的*/) NSTimer *timer;
 @property (nonatomic,assign) int index;
 
 @end
