@@ -16,6 +16,12 @@
 		D2412B951F71125B00F0E1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2412B931F71125B00F0E1BF /* LaunchScreen.storyboard */; };
 		D2412BA01F71125C00F0E1BF /* NSTimerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2412B9F1F71125C00F0E1BF /* NSTimerDemoTests.m */; };
 		D2412BAB1F71125C00F0E1BF /* NSTimerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2412BAA1F71125C00F0E1BF /* NSTimerDemoUITests.m */; };
+		D25557B71F95D03C0039A7F5 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25557B31F95D03C0039A7F5 /* 1@2x.png */; };
+		D25557B81F95D03C0039A7F5 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25557B41F95D03C0039A7F5 /* 2@2x.png */; };
+		D25557B91F95D03C0039A7F5 /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25557B51F95D03C0039A7F5 /* 3@2x.png */; };
+		D25557BA1F95D03C0039A7F5 /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D25557B61F95D03C0039A7F5 /* 4@2x.png */; };
+		D25557BD1F95D04B0039A7F5 /* GCD_TimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D25557BC1F95D04B0039A7F5 /* GCD_TimerVC.m */; };
+		D25557C01F95D0560039A7F5 /* CADisplayLinkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D25557BF1F95D0560039A7F5 /* CADisplayLinkVC.m */; };
 		D2C6B1461F73856700ADE5D8 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6B1451F73856700ADE5D8 /* GCDTimer.m */; };
 		D2C6B1491F73892800ADE5D8 /* GCDTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6B1481F73892800ADE5D8 /* GCDTimerVC.m */; };
 		D2C6B14C1F7392AB00ADE5D8 /* WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C6B14B1F7392AA00ADE5D8 /* WeakTimer.m */; };
@@ -59,6 +65,14 @@
 		D2412BA61F71125C00F0E1BF /* NSTimerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTimerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2412BAA1F71125C00F0E1BF /* NSTimerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerDemoUITests.m; sourceTree = "<group>"; };
 		D2412BAC1F71125C00F0E1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25557B31F95D03C0039A7F5 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+		D25557B41F95D03C0039A7F5 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
+		D25557B51F95D03C0039A7F5 /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@2x.png"; sourceTree = "<group>"; };
+		D25557B61F95D03C0039A7F5 /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@2x.png"; sourceTree = "<group>"; };
+		D25557BB1F95D04B0039A7F5 /* GCD_TimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD_TimerVC.h; sourceTree = "<group>"; };
+		D25557BC1F95D04B0039A7F5 /* GCD_TimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD_TimerVC.m; sourceTree = "<group>"; };
+		D25557BE1F95D0560039A7F5 /* CADisplayLinkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADisplayLinkVC.h; sourceTree = "<group>"; };
+		D25557BF1F95D0560039A7F5 /* CADisplayLinkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkVC.m; sourceTree = "<group>"; };
 		D2C6B1441F73856700ADE5D8 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
 		D2C6B1451F73856700ADE5D8 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
 		D2C6B1471F73892800ADE5D8 /* GCDTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimerVC.h; sourceTree = "<group>"; };
@@ -128,9 +142,9 @@
 		D2412B841F71125B00F0E1BF /* NSTimerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D2C6B1501F73A4D900ADE5D8 /* NSTimer */,
-				D2C6B1511F73A4EE00ADE5D8 /* GCDTimer */,
-				D2C6B1521F73A4FC00ADE5D8 /* WeakTimer */,
+				D25557B21F95CEE50039A7F5 /* NSTimer */,
+				D25557B01F95CEBC0039A7F5 /* GCD */,
+				D25557B11F95CEC90039A7F5 /* CADisplayLink */,
 				D2412B8E1F71125B00F0E1BF /* Main.storyboard */,
 				D2412B851F71125B00F0E1BF /* Supporting Files */,
 			);
@@ -140,6 +154,10 @@
 		D2412B851F71125B00F0E1BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D25557B31F95D03C0039A7F5 /* 1@2x.png */,
+				D25557B41F95D03C0039A7F5 /* 2@2x.png */,
+				D25557B51F95D03C0039A7F5 /* 3@2x.png */,
+				D25557B61F95D03C0039A7F5 /* 4@2x.png */,
 				D2412B881F71125B00F0E1BF /* AppDelegate.h */,
 				D2412B891F71125B00F0E1BF /* AppDelegate.m */,
 				D2412B911F71125B00F0E1BF /* Assets.xcassets */,
@@ -166,6 +184,34 @@
 				D2412BAC1F71125C00F0E1BF /* Info.plist */,
 			);
 			path = NSTimerDemoUITests;
+			sourceTree = "<group>";
+		};
+		D25557B01F95CEBC0039A7F5 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				D25557BB1F95D04B0039A7F5 /* GCD_TimerVC.h */,
+				D25557BC1F95D04B0039A7F5 /* GCD_TimerVC.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		D25557B11F95CEC90039A7F5 /* CADisplayLink */ = {
+			isa = PBXGroup;
+			children = (
+				D25557BE1F95D0560039A7F5 /* CADisplayLinkVC.h */,
+				D25557BF1F95D0560039A7F5 /* CADisplayLinkVC.m */,
+			);
+			name = CADisplayLink;
+			sourceTree = "<group>";
+		};
+		D25557B21F95CEE50039A7F5 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D2C6B1501F73A4D900ADE5D8 /* NSTimer */,
+				D2C6B1511F73A4EE00ADE5D8 /* GCDTimer */,
+				D2C6B1521F73A4FC00ADE5D8 /* WeakTimer */,
+			);
+			name = NSTimer;
 			sourceTree = "<group>";
 		};
 		D2C6B1501F73A4D900ADE5D8 /* NSTimer */ = {
@@ -316,8 +362,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25557B91F95D03C0039A7F5 /* 3@2x.png in Resources */,
+				D25557BA1F95D03C0039A7F5 /* 4@2x.png in Resources */,
 				D2412B951F71125B00F0E1BF /* LaunchScreen.storyboard in Resources */,
 				D2412B921F71125B00F0E1BF /* Assets.xcassets in Resources */,
+				D25557B81F95D03C0039A7F5 /* 2@2x.png in Resources */,
+				D25557B71F95D03C0039A7F5 /* 1@2x.png in Resources */,
 				D2412B901F71125B00F0E1BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,8 +398,10 @@
 				D2C6B1561F73AE4800ADE5D8 /* MultiThreadUsingVC.m in Sources */,
 				D2412B8D1F71125B00F0E1BF /* NSTimerVC.m in Sources */,
 				D2C6B14F1F73960500ADE5D8 /* WeakTimerVC.m in Sources */,
+				D25557C01F95D0560039A7F5 /* CADisplayLinkVC.m in Sources */,
 				D2412B8A1F71125B00F0E1BF /* AppDelegate.m in Sources */,
 				D2C6B14C1F7392AB00ADE5D8 /* WeakTimer.m in Sources */,
+				D25557BD1F95D04B0039A7F5 /* GCD_TimerVC.m in Sources */,
 				D2C6B1491F73892800ADE5D8 /* GCDTimerVC.m in Sources */,
 				D2412B871F71125B00F0E1BF /* main.m in Sources */,
 			);
