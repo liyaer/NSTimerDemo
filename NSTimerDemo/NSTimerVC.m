@@ -149,6 +149,9 @@
 {
     [_timer setFireDate:[NSDate distantPast]];//消息方式
 //    _timer.fireDate = [NSDate distantPast];//属性方式
+    
+    //也可以设置从现在起，几秒后开启定时器（[NSDate distantFuture]代表一个无限大的时间，所以可以代表暂停效果）
+    [_timer setFireDate:[NSDate dateWithTimeIntervalSinceNow:5.0]];
 }
 
 //立即暂停
